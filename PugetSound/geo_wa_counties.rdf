@@ -9,10 +9,10 @@
 @prefix ppod: <https://github.com/SDS-OKN/PPOp/blob/main/ppop.owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix geontology: <http://www.opengis.net/ont/geosparql#> .
-@base <https://github.com/SDS-OKN/PPOp/blob/main/geo_wa_counties#> .
+@base <https://github.com/SDS-OKN/PPOp/blob/main/geo_wa_counties.rdf#> .
 
-<https://github.com/SDS-OKN/PPOp/blob/main/geo_wa_counties#> rdf:type owl:Ontology ;
-                                                              rdfs:label "Washington counties" .
+<https://github.com/SDS-OKN/PPOp/blob/main/geo_wa_counties.rdf#> rdf:type owl:Ontology ;
+                                                                  rdfs:label "Washington counties" .
 
 #################################################################
 #    Annotation properties
