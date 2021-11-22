@@ -1,0 +1,633 @@
+@prefix geo:     <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:      <http://www.opengis.net/ont/sf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo_wa_wria:  <https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_wa_wria.ttl#> .
+
+<https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_wa_wria.ttl#> 
+	rdf:type owl:Ontology ;
+	rdfs:label "Washington Water Resource Inventory Areas" .
+
+geo_wa_wria:wa_wria rdf:type owl:Class ;
+                rdfs:subClassOf <http://purl.obolibrary.org/obo/GEO_000000372>, geo:Feature .
+				
+geo_wa_wria:geom_wa_wria_UpperChehalis
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.61373200179793 46.86097974123936, -122.68567669972929 47.28071611891877, -122.40820465021098 46.66721340525116, -123.3362599522796 46.24747702757176, -123.61373200179793 46.86097974123936))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_Lewis
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.8857297418557 46.05588259640416, -121.58993464497412 46.47696649817603, -121.43136387393585 45.988999072312645, -122.72715897081743 45.56791517054077, -122.8857297418557 46.05588259640416))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_QuilceneSnow
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "QuilceneSnow"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_QuilceneSnow ;
+      geo_wa_wria:name "Quilcene - Snow"@en .
+
+geo_wa_wria:geom_wa_wria_Entiat
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-120.70755953579359 48.26631690278909, -120.12081939123594 47.7026628183735, -120.33191423505012 47.4829219833482, -120.91865437960776 48.046576067763795, -120.70755953579359 48.26631690278909))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_Snohomish
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.35127875355782 48.21690259491118, -121.01772870068154 47.95838216622163, -121.14935350442352 47.27940965762841, -122.48290355729979 47.53793008631796, -122.35127875355782 48.21690259491118))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Kitsap
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Kitsap"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Kitsap ;
+      geo_wa_wria:name "Kitsap"@en .
+
+geo_wa_wria:geom_wa_wria_WindWhiteSalmon
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.13134103228573 46.16155014310533, -121.24768050079683 46.22745083722407, -121.20822790889137 45.69843215543326, -122.09188844038027 45.63253146131452, -122.13134103228573 46.16155014310533))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_GrandCoulee
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "GrandCoulee"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_GrandCoulee ;
+      geo_wa_wria:name "Grand Coulee"@en .
+
+geo_wa_wria:geom_wa_wria_LowerChehalis
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.3583411248189 47.059848808410614, -123.52561221864399 47.632492674131115, -123.13403346874018 47.063065559639156, -123.9667623749151 46.49042169391866, -124.3583411248189 47.059848808410614))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_Soleduc
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.7995497312828 48.43746369591115, -123.52810986673673 47.93048022760249, -123.7695009849487 47.32510685780416, -125.04094084949477 47.83209032611283, -124.7995497312828 48.43746369591115))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_MiddleSpokane
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-117.0408138631573 48.13605309613511, -117.04010902477155 47.502374206381106, -117.4579624633494 47.50190942974441, -117.45866730173515 48.13558831949842, -117.0408138631573 48.13605309613511))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_PuyallupWhite
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.46436156594442 47.37797441048317, -121.35724696688536 47.13572546407679, -121.45749758423294 46.677564866573064, -122.564612183292 46.91981381297945, -122.46436156594442 47.37797441048317))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_AlkaliSquilchuck
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-120.26416220462262 47.51767118093573, -119.1235402465639 46.37418989611169, -119.50433298611158 45.99434934606347, -120.6449549441703 47.137830630887514, -120.26416220462262 47.51767118093573))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Foster
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Foster"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Foster ;
+      geo_wa_wria:name "Foster"@en .
+
+geo_wa_wria:wa_wria_SkokomishDosewallips
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "SkokomishDosewallips"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_SkokomishDosewallips ;
+      geo_wa_wria:name "Skokomish - Dosewallips"@en .
+
+geo_wa_wria:wa_wria_SanJuan
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "SanJuan"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_SanJuan ;
+      geo_wa_wria:name "San Juan"@en .
+
+geo_wa_wria:geom_wa_wria_Sanpoil
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-119.30556801977856 48.01422650643121, -119.21514944417538 48.79471862673138, -118.45732369225618 48.706925908186584, -118.54774226785938 47.92643378788641, -119.30556801977856 48.01422650643121))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_PendOreille
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "PendOreille"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_PendOreille ;
+      geo_wa_wria:name "Pend Oreille"@en .
+
+geo_wa_wria:geom_wa_wria_EsquatzelCoulee
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-119.98365156554632 46.80847899400901, -118.19391243245481 47.02815206376308, -118.10569451697086 46.30941555337447, -119.89543365006236 46.0897424836204, -119.98365156554632 46.80847899400901))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Cowlitz
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Cowlitz"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Cowlitz ;
+      geo_wa_wria:name "Cowlitz"@en .
+
+geo_wa_wria:geom_wa_wria_Nooksack
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.32225346326953 49.00207536248036, -121.23760380437358 49.00275898405453, -121.2374595345018 48.5628194760623, -123.32210919339775 48.56213585448814, -123.32225346326953 49.00207536248036))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_Wenatchee
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-120.87808072772128 48.26167954723319, -120.22596309066107 47.447638110512145, -120.69396197436045 47.07273050456254, -121.34607961142066 47.886771941283584, -120.87808072772128 48.26167954723319))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_ChambersClover
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "ChambersClover"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_ChambersClover ;
+      geo_wa_wria:name "Chambers - Clover"@en .
+
+geo_wa_wria:wa_wria_Wenatchee
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Wenatchee"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Wenatchee ;
+      geo_wa_wria:name "Wenatchee"@en .
+
+geo_wa_wria:geom_wa_wria_Willapa
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.31620565646982 46.7487916372019, -123.42554461286402 47.03015141329875, -123.23664277728545 46.43217145912951, -124.12730382089126 46.150811683032664, -124.31620565646982 46.7487916372019))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Nespelem
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Nespelem"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Nespelem ;
+      geo_wa_wria:name "Nespelem"@en .
+
+geo_wa_wria:wa_wria_Lewis
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Lewis"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Lewis ;
+      geo_wa_wria:name "Lewis"@en .
+
+geo_wa_wria:wa_wria_Hangman
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Hangman"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Hangman ;
+      geo_wa_wria:name "Hangman"@en .
+
+geo_wa_wria:geom_wa_wria_Cowlitz
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.17422773020223 46.69136411262701, -121.37394989496369 46.895399130427734, -121.29782294642449 46.22370238152293, -123.09810078166304 46.01966736372221, -123.17422773020223 46.69136411262701))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_GrandCoulee
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-119.74385389196544 47.336399094017764, -119.14301764773062 48.107289047621315, -118.80974024249585 47.84753064304809, -119.41057648673069 47.07664068944454, -119.74385389196544 47.336399094017764))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Deschutes
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Deschutes"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Deschutes ;
+      geo_wa_wria:name "Deschutes"@en .
+
+geo_wa_wria:wa_wria_WallaWalla
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "WallaWalla"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_WallaWalla ;
+      geo_wa_wria:name "Walla Walla"@en .
+
+geo_wa_wria:wa_wria_Colville
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Colville"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Colville ;
+      geo_wa_wria:name "Colville"@en .
+
+geo_wa_wria:wa_wria_Stillaguamish
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Stillaguamish"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Stillaguamish ;
+      geo_wa_wria:name "Stillaguamish"@en .
+
+geo_wa_wria:wa_wria_MiddleSpokane
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "MiddleSpokane"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_MiddleSpokane ;
+      geo_wa_wria:name "Middle Spokane"@en .
+
+geo_wa_wria:geom_wa_wria_Naches
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.57713547441595 47.097790838312974, -120.64941955365886 47.28983225702545, -120.51072056412428 46.619803564013175, -121.43843648488138 46.4277621453007, -121.57713547441595 47.097790838312974))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_LyreHoko
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.79558096731465 48.50912442828162, -123.54001377396638 48.22104913242605, -123.61043729587354 47.91411040835372, -124.86600448922181 48.20218570420929, -124.79558096731465 48.50912442828162))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_SalmonWashougal
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "SalmonWashougal"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_SalmonWashougal ;
+      geo_wa_wria:name "Salmon - Washougal"@en .
+
+geo_wa_wria:geom_wa_wria_Methow
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-120.88576378624245 49.000782267056785, -119.83871818763608 49.00019243796714, -119.83930750821716 47.954049527364404, -120.88635310682353 47.95463935645405, -120.88576378624245 49.000782267056785))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_Foster
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-120.04896095259141 48.101616288067376, -119.00872438465078 48.307671364876484, -118.91912085581382 47.855322076734055, -119.95935742375445 47.649266999924954, -120.04896095259141 48.101616288067376))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_ChambersClover
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.62446576167378 47.354090491704895, -122.20368455391745 47.25053436308932, -122.26656193487254 46.99504373542155, -122.68734314262886 47.09859986403712, -122.62446576167378 47.354090491704895))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Snohomish
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Snohomish"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Snohomish ;
+      geo_wa_wria:name "Snohomish"@en .
+
+geo_wa_wria:geom_wa_wria_SalmonWashougal
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.79349110064113 45.8557507919191, -121.91536912785283 45.7851181999785, -121.93711166028291 45.51480962221916, -122.81523363307122 45.58544221415976, -122.79349110064113 45.8557507919191))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_ElwhaDungeness
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "ElwhaDungeness"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_ElwhaDungeness ;
+      geo_wa_wria:name "Elwha - Dungeness"@en .
+
+geo_wa_wria:wa_wria_QueetsQuinault
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "QueetsQuinault"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_QueetsQuinault ;
+      geo_wa_wria:name "Queets - Quinault"@en .
+
+geo_wa_wria:geom_wa_wria_QueetsQuinault
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.58861842026727 47.53182288343618, -123.63201322217456 48.17108170678738, -123.26136591003626 47.6164344614168, -124.21797110812896 46.977175638065596, -124.58861842026727 47.53182288343618))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_LowerChehalis
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "LowerChehalis"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_LowerChehalis ;
+      geo_wa_wria:name "Lower Chehalis"@en .
+
+geo_wa_wria:wa_wria_DuwamishGreen
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "DuwamishGreen"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_DuwamishGreen ;
+      geo_wa_wria:name "Duwamish - Green"@en .
+
+geo_wa_wria:wa_wria_GraysElochoman
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "GraysElochoman"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_GraysElochoman ;
+      geo_wa_wria:name "Grays - Elochoman"@en .
+
+geo_wa_wria:geom_wa_wria_GraysElochoman
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.7550304814404 46.57748969304174, -122.83584405396576 46.35734668795591, -122.91287592908463 46.035707333280094, -123.83206235655929 46.255850338365924, -123.7550304814404 46.57748969304174))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_ElwhaDungeness
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.7993464592126 48.182431782150566, -122.95192473530578 48.3487575210303, -122.84040810858349 47.78058561511979, -123.68782983249031 47.614259876240055, -123.7993464592126 48.182431782150566))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_Deschutes
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.94328770846 47.25852966113435, -122.24581904998225 46.8985444229276, -122.37692760251785 46.64452260051204, -123.07439626099563 47.00450783871878, -122.94328770846 47.25852966113435))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Kettle
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Kettle"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Kettle ;
+      geo_wa_wria:name "Kettle"@en .
+
+geo_wa_wria:geom_wa_wria_LowerYakima
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.22243438641145 46.61392638475346, -119.22997561636898 46.68764498021037, -119.20580135605816 46.0342655083549, -121.19826012610064 45.96054691289798, -121.22243438641145 46.61392638475346))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_UpperLakeRoosevelt
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "UpperLakeRoosevelt"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_UpperLakeRoosevelt ;
+      geo_wa_wria:name "Upper Lake Roosevelt"@en .
+
+geo_wa_wria:wa_wria_MiddleLakeRoosevelt
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "MiddleLakeRoosevelt"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_MiddleLakeRoosevelt ;
+      geo_wa_wria:name "Middle Lake Roosevelt"@en .
+
+geo_wa_wria:wa_wria_MiddleSnake
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "MiddleSnake"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_MiddleSnake ;
+      geo_wa_wria:name "Middle Snake"@en .
+
+geo_wa_wria:wa_wria_MosesCoulee
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "MosesCoulee"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_MosesCoulee ;
+      geo_wa_wria:name "Moses Coulee"@en .
+
+geo_wa_wria:wa_wria_LowerSkagitSamish
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "LowerSkagitSamish"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_LowerSkagitSamish ;
+      geo_wa_wria:name "Lower Skagit - Samish"@en .
+
+geo_wa_wria:wa_wria_LittleSpokane
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "LittleSpokane"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_LittleSpokane ;
+      geo_wa_wria:name "Little Spokane"@en .
+
+geo_wa_wria:wa_wria_UpperChehalis
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "UpperChehalis"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_UpperChehalis ;
+      geo_wa_wria:name "Upper Chehalis"@en .
+
+geo_wa_wria:wa_wria_LowerSnake
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "LowerSnake"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_LowerSnake ;
+      geo_wa_wria:name "Lower Snake"@en .
+
+geo_wa_wria:geom_wa_wria_Chelan
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-120.8857835826324 48.70869138766797, -119.85463152438585 47.948689761024646, -120.12232213055142 47.585493539011246, -121.15347418879797 48.34549516565457, -120.8857835826324 48.70869138766797))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_MosesCoulee
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-120.36854368906312 47.73301807527733, -119.3182666955517 47.92590657228967, -119.22356866649065 47.410276232511876, -120.27384566000207 47.21738773549954, -120.36854368906312 47.73301807527733))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_CedarSammamish
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.33290751717647 47.98792804101136, -121.38064537909925 47.409650383338125, -121.58386473086097 47.07500474756184, -122.53612686893818 47.653282405235075, -122.33290751717647 47.98792804101136))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_KennedyGoldsborough
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "KennedyGoldsborough"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_KennedyGoldsborough ;
+      geo_wa_wria:name "Kennedy - Goldsborough"@en .
+
+geo_wa_wria:wa_wria_Island
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Island"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Island ;
+      geo_wa_wria:name "Island"@en .
+
+geo_wa_wria:wa_wria_Sanpoil
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Sanpoil"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Sanpoil ;
+      geo_wa_wria:name "Sanpoil"@en .
+
+geo_wa_wria:wa_wria_UpperSkagit
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "UpperSkagit"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_UpperSkagit ;
+      geo_wa_wria:name "Upper Skagit"@en .
+
+geo_wa_wria:geom_wa_wria_WallaWalla
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-119.02960144384497 46.51407948961752, -117.68037061220916 46.514653313195524, -117.68015190859805 46.000415721000756, -119.02938274023386 45.99984189742276, -119.02960144384497 46.51407948961752))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_RockGlade
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-120.76842836871985 46.0189691537662, -118.99620448165146 46.357036112038905, -118.92268638579377 45.97163753219404, -120.69491027286216 45.633570573921325, -120.76842836871985 46.0189691537662))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_RockGlade
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "RockGlade"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_RockGlade ;
+      geo_wa_wria:name "Rock - Glade"@en .
+
+geo_wa_wria:geom_wa_wria_DuwamishGreen
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.43551684132228 47.637467367552944, -121.2618070858837 47.25980611501279, -121.3572880570519 46.96306678428952, -122.53099781249048 47.34072803682968, -122.43551684132228 47.637467367552944))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_Kettle
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-119.18731776222903 49.000081020588816, -118.01075110530591 49.00021629873096, -118.01070853644065 48.62997830827846, -119.18727519336376 48.62984303013631, -119.18731776222903 49.000081020588816))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Willapa
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Willapa"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Willapa ;
+      geo_wa_wria:name "Willapa"@en .
+
+geo_wa_wria:geom_wa_wria_Stillaguamish
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.36324770945016 48.54784439549393, -121.38648533665923 48.40136941406595, -121.45156858142822 47.96736448046071, -122.42833095421915 48.113839461888695, -122.36324770945016 48.54784439549393))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_Palouse
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-118.34817825975287 47.71258309681615, -116.92439090986282 47.55447236123008, -117.0459586451869 46.45975476936246, -118.46974599507693 46.61786550494853, -118.34817825975287 47.71258309681615))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_AlkaliSquilchuck
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "AlkaliSquilchuck"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_AlkaliSquilchuck ;
+      geo_wa_wria:name "Alkali - Squilchuck"@en .
+
+geo_wa_wria:wa_wria_EsquatzelCoulee
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "EsquatzelCoulee"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_EsquatzelCoulee ;
+      geo_wa_wria:name "Esquatzel Coulee"@en .
+
+geo_wa_wria:wa_wria_Methow
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Methow"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Methow ;
+      geo_wa_wria:name "Methow"@en .
+
+geo_wa_wria:wa_wria_LowerLakeRoosevelt
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "LowerLakeRoosevelt"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_LowerLakeRoosevelt ;
+      geo_wa_wria:name "Lower Lake Roosevelt"@en .
+
+geo_wa_wria:geom_wa_wria_Okanogan
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-119.98379198365673 48.997608150850326, -119.00337705659742 49.04229166692033, -118.96089727494912 48.11022956238567, -119.94131220200843 48.06554604631567, -119.98379198365673 48.997608150850326))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_LyreHoko
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "LyreHoko"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_LyreHoko ;
+      geo_wa_wria:name "Lyre - Hoko"@en .
+
+geo_wa_wria:geom_wa_wria_KennedyGoldsborough
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.3228224865492 47.29572983054581, -122.8361596484296 47.451810177972334, -122.7322257302882 47.12774134795263, -123.21888856840779 46.971661000526105, -123.3228224865492 47.29572983054581))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Soleduc
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Soleduc"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Soleduc ;
+      geo_wa_wria:name "Soleduc"@en .
+
+geo_wa_wria:wa_wria_WindWhiteSalmon
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "WindWhiteSalmon"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_WindWhiteSalmon ;
+      geo_wa_wria:name "Wind - White Salmon"@en .
+
+geo_wa_wria:geom_wa_wria_Island
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.6829189781573 48.54328179387578, -122.2017058032567 48.04304132445977, -122.448085373067 47.806033120870275, -122.92929854796759 48.30627359028629, -122.6829189781573 48.54328179387578))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Naches
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Naches"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Naches ;
+      geo_wa_wria:name "Naches"@en .
+
+geo_wa_wria:geom_wa_wria_Hangman
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-117.51941411057828 47.76576024168432, -116.89488427722935 47.48615263641699, -117.04131476966779 47.159086386011026, -117.66584460301671 47.438693991278356, -117.51941411057828 47.76576024168432))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_QuilceneSnow
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.21704228012841 47.794635411975285, -122.92702919706572 48.4007916788031, -122.45471944731476 48.174816935685, -122.74473253037745 47.568660668857184, -123.21704228012841 47.794635411975285))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_LowerSpokane
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-118.13461047920521 48.28517022609761, -117.30695381300366 47.84707068703663, -117.54412373164811 47.39900980888711, -118.37178039784966 47.83710934794809, -118.13461047920521 48.28517022609761))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_Nisqually
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.68835169306165 47.24526339655589, -121.69641140303742 46.82845627188464, -121.85833335210285 46.44310560101035, -122.85027364212708 46.8599127256816, -122.68835169306165 47.24526339655589))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Chelan
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Chelan"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Chelan ;
+      geo_wa_wria:name "Chelan"@en .
+
+geo_wa_wria:wa_wria_CedarSammamish
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "CedarSammamish"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_CedarSammamish ;
+      geo_wa_wria:name "Cedar - Sammamish"@en .
+
+geo_wa_wria:wa_wria_Nisqually
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Nisqually"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Nisqually ;
+      geo_wa_wria:name "Nisqually"@en .
+
+geo_wa_wria:geom_wa_wria_UpperLakeRoosevelt
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-118.1316154133097 49.00015923721274, -117.42947859455556 49.00098818940944, -117.42897535904537 48.574739026171734, -118.13111217779952 48.573910073975036, -118.1316154133097 49.00015923721274))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_UpperYakima
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "UpperYakima"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_UpperYakima ;
+      geo_wa_wria:name "Upper Yakima"@en .
+
+geo_wa_wria:geom_wa_wria_SanJuan
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.33620739748201 48.77233152197587, -122.74200780937934 48.87911552179953, -122.6542533347807 48.39080573056881, -123.24845292288339 48.284021730745145, -123.33620739748201 48.77233152197587))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_PendOreille
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-117.59722083391954 48.169691266089096, -117.5749642221801 49.013514261143435, -117.01766457857545 48.998814967733644, -117.03992119031487 48.154991972679305, -117.59722083391954 48.169691266089096))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Entiat
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Entiat"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Entiat ;
+      geo_wa_wria:name "Entiat"@en .
+
+geo_wa_wria:geom_wa_wria_SkokomishDosewallips
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.60473991005342 47.48596298658042, -123.22937718206809 47.98983199024273, -122.82451898352042 47.68822844497696, -123.19988171150575 47.184359441314655, -123.60473991005342 47.48596298658042))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_LowerSnake
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-119.13662262991247 46.472463986072306, -118.25262966052036 46.76250992396061, -118.14058904202967 46.42103601898817, -119.02458201142177 46.13099008109987, -119.13662262991247 46.472463986072306))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_UpperCrabWilson
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "UpperCrabWilson"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_UpperCrabWilson ;
+      geo_wa_wria:name "Upper Crab-Wilson"@en .
+
+geo_wa_wria:geom_wa_wria_LowerCrab
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-120.10054567167938 47.379409368634064, -118.29383503834127 47.43903780504747, -118.27277970837466 46.80107224989896, -120.07949034171277 46.74144381348555, -120.10054567167938 47.379409368634064))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_MiddleLakeRoosevelt
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-118.12126372386167 48.7688946741447, -117.92352355704992 48.002131498349186, -118.539230541536 47.84334713615923, -118.73697070834776 48.61011031195474, -118.12126372386167 48.7688946741447))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_UpperSkagit
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.00123022423986 48.75518327161985, -120.78980170347785 49.14472192708515, -120.48371530729241 48.19282207079652, -121.69514382805444 47.803283415331215, -122.00123022423986 48.75518327161985))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_Kitsap
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.15752218788846 47.40155431175432, -122.58372171305494 48.00749754687144, -122.15476621937799 47.60129635228808, -122.72856669421152 46.99535311717096, -123.15752218788846 47.40155431175432))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_LowerSpokane
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "LowerSpokane"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_LowerSpokane ;
+      geo_wa_wria:name "Lower Spokane"@en .
+
+geo_wa_wria:geom_wa_wria_UpperYakima
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.2099741147821 47.78077997171604, -119.85461595017688 46.94018914783105, -120.18915895068884 46.40077618462527, -121.54451711529404 47.24136700851027, -121.2099741147821 47.78077997171604))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_LowerCrab
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "LowerCrab"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_LowerCrab ;
+      geo_wa_wria:name "Lower Crab"@en .
+
+geo_wa_wria:wa_wria_LowerYakima
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "LowerYakima"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_LowerYakima ;
+      geo_wa_wria:name "Lower Yakima"@en .
+
+geo_wa_wria:geom_wa_wria_Klickitat
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.30281941893176 46.62992958969047, -120.51062151557778 45.91719593577405, -120.97439557497921 45.40171468205615, -121.76659347833318 46.11444833597257, -121.30281941893176 46.62992958969047))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_LowerSkagitSamish
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.78582967191122 48.630998854951514, -121.91433269441242 48.801411680482516, -121.82746009072014 48.357142234744664, -122.69895706821892 48.18672940921366, -122.78582967191122 48.630998854951514))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_MiddleSnake
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-118.21956491571594 46.84749290375123, -116.91281921617656 46.84375336895789, -116.91524721160731 45.99531291768067, -118.22199291114669 45.99905245247401, -118.21956491571594 46.84749290375123))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_LittleSpokane
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-117.61972416071437 48.29643619413867, -117.03020941381256 48.19795652684089, -117.12119445486074 47.65330578910859, -117.71070920176255 47.751785456406374, -117.61972416071437 48.29643619413867))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Okanogan
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Okanogan"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Okanogan ;
+      geo_wa_wria:name "Okanogan"@en .
+
+geo_wa_wria:geom_wa_wria_LowerLakeRoosevelt
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-119.02237568136468 48.18988190233973, -117.95651680453176 47.80492553466366, -118.05141326779044 47.54217825669312, -119.11727214462336 47.927134624369195, -119.02237568136468 48.18988190233973))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Palouse
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Palouse"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Palouse ;
+      geo_wa_wria:name "Palouse"@en .
+
+geo_wa_wria:wa_wria_PuyallupWhite
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "PuyallupWhite"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_PuyallupWhite ;
+      geo_wa_wria:name "Puyallup - White"@en .
+
+geo_wa_wria:geom_wa_wria_UpperCrabWilson
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-119.1594240494631 47.99949587838331, -117.64731572275566 47.655207050958495, -117.78802790519865 47.0372024984068, -119.30013623190608 47.381491325831604, -119.1594240494631 47.99949587838331))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Klickitat
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Klickitat"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Klickitat ;
+      geo_wa_wria:name "Klickitat"@en .
+
+geo_wa_wria:geom_wa_wria_Nespelem
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-119.06671373885638 48.42699080116027, -118.72089269089811 48.328527530549565, -118.79834980496759 48.05648395335385, -119.14417085292585 48.154947223964555, -119.06671373885638 48.42699080116027))"^^geo:wktLiteral .
+
+geo_wa_wria:geom_wa_wria_Colville
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-118.14113666919725 48.03391536633854, -118.10781947764927 48.74508160938407, -117.47120263716293 48.71525695808127, -117.50451982871093 48.00409071503574, -118.14113666919725 48.03391536633854))"^^geo:wktLiteral .
+
+geo_wa_wria:wa_wria_Nooksack
+      a       geo_wa_wria:wa_wria ;
+      rdfs:label              "Nooksack"@en ;
+      geo:hasGeometry geo_wa_wria:geom_wa_wria_Nooksack ;
+      geo_wa_wria:name "Nooksack"@en .

@@ -1,0 +1,1183 @@
+@prefix geo:     <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:      <http://www.opengis.net/ont/sf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo_huc10:  <https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_ps_wbd_huc10.ttl#> .
+
+<https://github.com/SDS-OKN/PPOp/raw/main/main/PugetSound/geo_ps_wbd_huc10.ttl#> 
+	rdf:type owl:Ontology ; 
+	rdfs:label "Watershed Boundaries HUC10" .
+
+geo_huc10:ps_wbd_huc10 rdf:type owl:Class ;
+      rdfs:subClassOf <http://purl.obolibrary.org/obo/GEO_000000372>,  geo:Feature .
+
+geo_huc10:ps_wbd_huc10_1711001001
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001001"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001001 ;
+      geo_huc10:name "North Fork Snoqualmie River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000902
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000902"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000902 ;
+      geo_huc10:name "Beckler River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000401
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000401"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000401 ;
+      geo_huc10:name "Upper North Fork Nooksack River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711002109
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.54728894857475 49.16821682432151, -124.4302905517427 48.89059367032078, -124.70790516731473 48.77359887182863, -124.82490356414678 49.05122202582936, -124.54728894857475 49.16821682432151))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000304
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000304"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000304 ;
+      geo_huc10:name "Orcas Island"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000601
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.5275824010657 48.21209745510329, -121.09703596916043 48.21154754252933, -121.09736067393368 47.957324438417395, -121.52790710583895 47.95787435099136, -121.5275824010657 48.21209745510329))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000504
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-120.99931259091385 49.08349229594512, -120.73573972045813 49.04355269624297, -120.77280134153774 48.79897243193027, -121.03637421199346 48.83891203163242, -120.99931259091385 49.08349229594512))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000407
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.70553908933402 48.81026361367624, -122.47057936485602 48.76292029001551, -122.499700117923 48.61839718542235, -122.734659842401 48.665740509083086, -122.70553908933402 48.81026361367624))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001202
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.06135587778503 47.70113309896848, -121.86685822583725 47.46041061490961, -121.99124160178548 47.35991200690524, -122.18573925373327 47.600634490964104, -122.06135587778503 47.70113309896848))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711002005
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002005"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002005 ;
+      geo_huc10:name "Elwha River"@en .
+
+geo_huc10:ps_wbd_huc10_1711002102
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002102"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002102 ;
+      geo_huc10:name "Lyre River"@en .
+
+geo_huc10:ps_wbd_huc10_1711001503
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001503"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001503 ;
+      geo_huc10:name "Lower Nisqually River-Frontal Puget Sound"@en .
+
+geo_huc10:ps_wbd_huc10_1711001907
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001907"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001907 ;
+      geo_huc10:name "Ollala Valley-Frontal Puget Sound"@en .
+
+geo_huc10:ps_wbd_huc10_1711000511
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000511"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000511 ;
+      geo_huc10:name "Illabot Creek-Skagit River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000402
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000402"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000402 ;
+      geo_huc10:name "Lower North Fork Nooksack River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000903
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000903"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000903 ;
+      geo_huc10:name "South Fork Skykomish River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000305
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000305"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000305 ;
+      geo_huc10:name "San Juan Island"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000503
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.35090658315998 49.19943725766512, -120.88694368301337 49.213813068498176, -120.88031145399621 48.999765440509194, -121.34427435414283 48.985389629676135, -121.35090658315998 49.19943725766512))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000406
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.71055199114987 48.84898580866629, -122.20537694316636 48.82395313866178, -122.21544115846854 48.620850934730754, -122.72061620645205 48.64588360473527, -122.71055199114987 48.84898580866629))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711002101
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002101"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002101 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:ps_wbd_huc10_1711001502
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001502"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001502 ;
+      geo_huc10:name "Middle Nisqually River"@en .
+
+geo_huc10:ps_wbd_huc10_1711001405
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001405"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001405 ;
+      geo_huc10:name "Lower Puyallup River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000907
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.98422946651318 48.04280150240563, -121.65654314177715 47.95188945182114, -121.71709309864609 47.733641236081404, -122.04477942338211 47.824553286665896, -121.98422946651318 48.04280150240563))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711002004
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002004"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002004 ;
+      geo_huc10:name "Morse Creek-Frontal Port Angeles Harbor"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001801
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.15728011774921 47.38760615662899, -122.6049648878961 47.95417322455021, -122.44737178218988 47.80054432987979, -122.99968701204298 47.23397726195857, -123.15728011774921 47.38760615662899))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000510
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000510"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000510 ;
+      geo_huc10:name "Baker River"@en .
+
+geo_huc10:ps_wbd_huc10_1711001906
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001906"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001906 ;
+      geo_huc10:name "Goldsborough Creek-Frontal Puget Sound"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001203
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.22855996538559 47.966081840770684, -121.94945397815715 47.696260038925416, -122.06992610988557 47.571642632067935, -122.34903209711399 47.8414644339132, -122.22855996538559 47.966081840770684))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001910
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.71268445654553 47.52670067124588, -122.70383889316012 47.775373620788024, -122.51345086890618 47.768601314674875, -122.52229643229158 47.51992836513273, -122.71268445654553 47.52670067124588))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000803
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000803"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000803 ;
+      geo_huc10:name "Stillaguamish River-Frontal Port Susan"@en .
+
+geo_huc10:ps_wbd_huc10_1711000302
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000302"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000302 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:ps_wbd_huc10_1711000205
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000205"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000205 ;
+      geo_huc10:name "Padilla Bay-Strait of Georgia"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000405
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.74948806994892 49.03810436482698, -122.19805570746239 49.12426196394984, -122.14650772325068 48.794340668502166, -122.69794008573723 48.7081830693793, -122.74948806994892 49.03810436482698))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000502
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.05475545853182 49.35145579649012, -120.80763781020191 49.291451753699285, -120.85943164596958 49.07814661128565, -121.10654929429948 49.13815065407648, -121.05475545853182 49.35145579649012))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001301
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.64263601113855 47.29965762835427, -121.30461282245562 47.313914538704594, -121.29654580011875 47.12265005387014, -121.63456898880168 47.108393143519805, -121.64263601113855 47.29965762835427))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000906
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.79526588379156 47.99480749100444, -121.50978968212227 47.927838467377214, -121.55276537243759 47.74464127902307, -121.83824157410687 47.811610302650294, -121.79526588379156 47.99480749100444))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711002112
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002112"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002112 ;
+      geo_huc10:name "Port San Juan-Strait of Juan De Fuca"@en .
+
+geo_huc10:ps_wbd_huc10_1711001404
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001404"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001404 ;
+      geo_huc10:name "Lower White River"@en .
+
+geo_huc10:ps_wbd_huc10_1711001501
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001501"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001501 ;
+      geo_huc10:name "Upper Nisqually River"@en .
+
+geo_huc10:ps_wbd_huc10_1711002003
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002003"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002003 ;
+      geo_huc10:name "Dungeness River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001911
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.54941280433769 48.522097076621606, -122.12723578143505 48.064182105182645, -122.37508999928149 47.83567165601463, -122.79726702218413 48.29358662745359, -122.54941280433769 48.522097076621606))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001802
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.33851983108639 47.639036025437775, -123.0542071373835 47.666282859988996, -123.04147058587597 47.53338069622449, -123.32578327957886 47.50613386167326, -123.33851983108639 47.639036025437775))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000301
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000301"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000301 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:ps_wbd_huc10_1711001905
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001905"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001905 ;
+      geo_huc10:name "McLane Creek-Frontal Puget Sound"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001204
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.27815109543505 47.86534955626885, -122.00227005256623 47.53983159569063, -122.17624818165699 47.39238268809528, -122.4521292245258 47.7179006486735, -122.27815109543505 47.86534955626885))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001808
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001808"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001808 ;
+      geo_huc10:name "Hood Canal"@en .
+
+geo_huc10:ps_wbd_huc10_1711000303
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000303"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000303 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:ps_wbd_huc10_1711000901
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000901"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000901 ;
+      geo_huc10:name "Tye River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000404
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.25468942914414 48.83838941929022, -121.77339287910146 48.69202863306389, -121.83750777204499 48.48119158049196, -122.31880432208766 48.627552366718284, -122.25468942914414 48.83838941929022))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000307
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.59358622124273 49.038550155309856, -122.65522131170567 48.881159990497835, -122.74437157246629 48.34964344704829, -123.68273648200334 48.5070336118603, -123.59358622124273 49.038550155309856))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000501
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.34340896658927 49.27799680743481, -121.08250526271958 49.362287270737475, -121.03688903799774 49.221091677307825, -121.29779274186743 49.13680121400516, -121.34340896658927 49.27799680743481))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000905
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.88826320652346 47.99399154178071, -121.48286759333158 48.07543575015682, -121.45341574600297 47.92883662487255, -121.85881135919486 47.84739241649644, -121.88826320652346 47.99399154178071))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711002002
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002002"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002002 ;
+      geo_huc10:name "Jimmycomelately Creek-Frontal Sequim Bay"@en .
+
+geo_huc10:ps_wbd_huc10_1711001904
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001904"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001904 ;
+      geo_huc10:name "Anderson Island-Hartstene Island"@en .
+
+geo_huc10:ps_wbd_huc10_1711002111
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002111"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002111 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:ps_wbd_huc10_1711001403
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001403"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001403 ;
+      geo_huc10:name "Upper White River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001912
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.4351248490694 48.241323767376926, -122.15402504768564 47.32120809368322, -122.53232619794588 47.20563525730873, -122.81342599932964 48.12575093100244, -122.4351248490694 48.241323767376926))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001803
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.28601706940867 47.405007775836914, -123.04504969858216 47.730721406005415, -122.93067575575455 47.6461060084859, -123.17164312658106 47.3203923783174, -123.28601706940867 47.405007775836914))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001807
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001807"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001807 ;
+      geo_huc10:name "Little Quillcene River-Frontal Hood Canal"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001302
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.94881639590594 47.411741487382926, -121.5719887519393 47.29887803058457, -121.6179621548634 47.14538238548863, -121.99478979883006 47.25824584228699, -121.94881639590594 47.411741487382926))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000203
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000203"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000203 ;
+      geo_huc10:name "Telegraph Slough-Frontal Padilla Bay"@en .
+
+geo_huc10:ps_wbd_huc10_1711000801
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000801"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000801 ;
+      geo_huc10:name "North Fork Stillaguamish River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000306
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.96140337150467 48.44807264908193, -122.88721604737769 48.63140609210615, -122.74341807874318 48.57321710960566, -122.81760540287017 48.38988366658144, -122.96140337150467 48.44807264908193))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001401
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001401"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001401 ;
+      geo_huc10:name "Carbon River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000403
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.1219941836047 48.91469133843002, -121.81148778912092 48.787193001780636, -121.86873351633467 48.647778129211545, -122.17923991081845 48.77527646586093, -122.1219941836047 48.91469133843002))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711002001
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002001"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002001 ;
+      geo_huc10:name "Snow Creek-Frontal Discovery Bay"@en .
+
+geo_huc10:ps_wbd_huc10_1711002110
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002110"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002110 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:ps_wbd_huc10_1711001903
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001903"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001903 ;
+      geo_huc10:name "Chambers Creek-Frontal Puget Sound"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000904
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.58424015289947 47.97319083384701, -121.1476461141098 47.98706680334022, -121.14192665454381 47.80710950717922, -121.57852069333349 47.79323353768602, -121.58424015289947 47.97319083384701))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001402
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001402"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001402 ;
+      geo_huc10:name "Upper Puyallup River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001901
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.59995796404723 48.57930376920465, -122.17472596067026 48.07820472020748, -122.44944813918444 47.84507583565768, -122.87468014256143 48.34617488465485, -122.59995796404723 48.57930376920465))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001913
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.88116911326877 48.154668452155555, -122.85109508059412 48.50986884684946, -122.65105283528996 48.4929317118928, -122.68112686796461 48.1377313171989, -122.88116911326877 48.154668452155555))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000202
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000202"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000202 ;
+      geo_huc10:name "Samish River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001804
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.38215857361342 47.69160108138132, -122.94440571789902 47.734930642883754, -122.93490755269728 47.63897193024189, -123.37266040841169 47.595642368739455, -123.38215857361342 47.69160108138132))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001806
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001806"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001806 ;
+      geo_huc10:name "Big Quilcene River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001303
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.34186638697082 47.59147874530883, -121.8521953096926 47.278712717843035, -121.96980837966709 47.094575971460934, -122.45947945694532 47.40734199892672, -122.34186638697082 47.59147874530883))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001805
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.3705729082475 47.82759618861779, -122.89698078858397 47.829736617141364, -122.896327093086 47.68509967501044, -123.36991921274952 47.68295924648687, -123.3705729082475 47.82759618861779))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000204
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000204"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000204 ;
+      geo_huc10:name "Lummi Island-Guemes Island"@en .
+
+geo_huc10:ps_wbd_huc10_1711000802
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000802"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000802 ;
+      geo_huc10:name "South Fork Stillaguamish River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711002001
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.02037036419573 47.90867162972365, -122.98594756509144 48.17431057460126, -122.7539666589173 48.144249349456196, -122.7883894580216 47.87861040457859, -123.02037036419573 47.90867162972365))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000305
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.1737101702271 48.74934752663266, -122.92418343740873 48.48689985662985, -123.02972755050757 48.38655193694938, -123.27925428332594 48.6489996069522, -123.1737101702271 48.74934752663266))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711002110
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.69009409649452 48.826143795098915, -124.42480036312246 48.89289707767626, -124.39047032422546 48.75646117768526, -124.65576405759752 48.689707895107915, -124.69009409649452 48.826143795098915))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000511
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.7120497104178 48.650704785109006, -121.23822439958937 48.53983542045855, -121.2819371559418 48.35301906743662, -121.75576246677024 48.46388843208707, -121.7120497104178 48.650704785109006))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000402
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.16922897450692 49.072294451718335, -121.94938257780348 48.99858933747749, -122.01969285899048 48.788868992703904, -122.23953925569391 48.86257410694475, -122.16922897450692 49.072294451718335))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001902
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001902"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001902 ;
+      geo_huc10:name "Lunds Gulch-Frontal Puget Sound"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000903
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.55769897126874 47.86236718643717, -121.24686723030355 47.714655600919215, -121.33680556986634 47.52539698205193, -121.64763731083154 47.673108567569884, -121.55769897126874 47.86236718643717))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001805
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001805"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001805 ;
+      geo_huc10:name "Dosewallips River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001902
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.4741833070117 47.22136774888915, -122.3915075167138 48.17234962168424, -122.1804773350598 48.15400322882012, -122.26315312535769 47.20302135602503, -122.4741833070117 47.22136774888915))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001401
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.16451361565582 47.26356865661685, -121.6830462085008 47.00741175806398, -121.78503886608142 46.815708389262994, -122.26650627323646 47.07186528781586, -122.16451361565582 47.26356865661685))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001806
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.13965013891676 47.86840182275672, -122.86225747756825 47.87099490341281, -122.8611505584967 47.75258315002883, -123.13854321984522 47.74999006937275, -123.13965013891676 47.86840182275672))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000104
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000104"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000104 ;
+      geo_huc10:name "Sumas River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000702
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000702"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000702 ;
+      geo_huc10:name "Skagit River-Frontal Skagit Bay"@en .
+
+geo_huc10:ps_wbd_huc10_1711001302
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001302"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001302 ;
+      geo_huc10:name "Middle Green River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711002111
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.88882993507694 48.809880585968344, -124.61678589000977 48.84707652469644, -124.59619676590302 48.696491573814264, -124.8682408109702 48.65929563508617, -124.88882993507694 48.809880585968344))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000508
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000508"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000508 ;
+      geo_huc10:name "Cascade River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000510
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.88743507550102 48.77478154138493, -121.4009901512818 48.97922840275094, -121.28757282049699 48.70937204736288, -121.7740177447162 48.504925185996875, -121.88743507550102 48.77478154138493))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000902
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.44035901797922 47.84306922871928, -121.11048828266414 47.95201227965041, -121.06139892390499 47.803373676897664, -121.39126965922007 47.69443062596653, -121.44035901797922 47.84306922871928))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000401
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.9976392619033 49.007093882656854, -121.51356505226293 48.93931717478238, -121.54309936270634 48.72837748128696, -122.02717357234671 48.796154189161435, -121.9976392619033 49.007093882656854))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711002002
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.10220898102102 48.18031665670182, -122.91514915202521 48.05009797851409, -123.0075299785005 47.91739242625798, -123.19458980749633 48.047611104445714, -123.10220898102102 48.18031665670182))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000304
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.1075572489813 48.6633879221702, -122.9186097154456 48.8570290369038, -122.72992147986203 48.672914331874516, -122.91886901339772 48.479273217140914, -123.1075572489813 48.6633879221702))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001901
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001901"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001901 ;
+      geo_huc10:name "Whidbey Island"@en .
+
+geo_huc10:ps_wbd_huc10_1711001913
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001913"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001913 ;
+      geo_huc10:name "Rosario Strait-Strait of Juan De Fuca"@en .
+
+geo_huc10:ps_wbd_huc10_1711001804
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001804"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001804 ;
+      geo_huc10:name "Duckabush River"@en .
+
+geo_huc10:ps_wbd_huc10_1711001303
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001303"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001303 ;
+      geo_huc10:name "Lower Green River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000103
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000103"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000103 ;
+      geo_huc10:name "Lower Chilliwack River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001903
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.57108758119502 47.335661714592796, -122.21121631890418 47.1668037674598, -122.32252884928909 46.92957370811971, -122.68240011157992 47.09843165525272, -122.57108758119502 47.335661714592796))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001402
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.24738223263256 47.13728841681703, -121.7425783161993 46.89339179179355, -121.82533723926578 46.72210189190364, -122.33014115569904 46.96599851692712, -122.24738223263256 47.13728841681703))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001904
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.97280654802861 47.20954860116086, -122.54456843383852 47.73598063153821, -122.2715206112389 47.51386366697974, -122.69975872542899 46.98743163660239, -122.97280654802861 47.20954860116086))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001807
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.06720337393955 47.886636882926766, -122.65921189230228 48.02659915956062, -122.56824653121164 47.76143419267366, -122.97623801284892 47.62147191603981, -123.06720337393955 47.886636882926766))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001301
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001301"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001301 ;
+      geo_huc10:name "Upper Green River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000509
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000509"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000509 ;
+      geo_huc10:name "Diobsud Creek-Skagit River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000901
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.39392811164241 47.68700433415898, -121.11721486226112 47.82006104955181, -121.02834430929494 47.63524016762202, -121.30505755867622 47.50218345222918, -121.39392811164241 47.68700433415898))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711002112
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.88545395345292 48.68957392718562, -123.5174585930436 48.36197797157304, -123.58814001400684 48.06682214230144, -124.95613537441616 48.39441809791403, -124.88545395345292 48.68957392718562))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711002003
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.42684220155313 47.88772836134369, -123.14176838697912 48.176773563935676, -122.93480489860794 47.97265368725743, -123.21987871318194 47.68360848466544, -123.42684220155313 47.88772836134369))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000303
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.58382080242454 49.01845504407956, -123.04042965851033 48.78922462543575, -123.08959263051389 48.672683706681205, -123.6329837744281 48.90191412532502, -123.58382080242454 49.01845504407956))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001912
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001912"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001912 ;
+      geo_huc10:name "Puget Sound"@en .
+
+geo_huc10:ps_wbd_huc10_1711001803
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001803"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001803 ;
+      geo_huc10:name "Lilliwaup Creek-Frontal Hood Canal"@en .
+
+geo_huc10:ps_wbd_huc10_1711000201
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000201"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000201 ;
+      geo_huc10:name "California Creek-Frontal Semiahmoo Bay"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001403
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.77529093340013 47.17924590009139, -121.37678055964477 47.18650748004283, -121.37068741500855 46.85212001029595, -121.7691977887639 46.8448584303445, -121.77529093340013 47.17924590009139))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000506
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000506"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000506 ;
+      geo_huc10:name "Ross Lake-Skagit River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001905
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.09420996672254 47.1775982370801, -122.72713777392201 47.178284811858035, -122.72677585098256 46.984785354439836, -123.0938480437831 46.984098779661906, -123.09420996672254 47.1775982370801))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001808
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.1888838868067 47.37071868117805, -122.72502023330719 48.01772199288581, -122.52564012734713 47.874778080988925, -122.98950378084666 47.227774769281154, -123.1888838868067 47.37071868117805))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000603
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000603"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000603 ;
+      geo_huc10:name "Lower Suiattle River"@en .
+
+geo_huc10:ps_wbd_huc10_1711001203
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001203"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001203 ;
+      geo_huc10:name "Middle Sammamish River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711002004
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.55696201017328 48.15076014512368, -123.1005340432293 48.1849527221831, -123.08236007345982 47.94235304744166, -123.5387880404038 47.90816047038224, -123.55696201017328 48.15076014512368))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000302
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.5849323070548 48.964009038712454, -123.34842580573297 48.797125177165945, -123.4391321353078 48.66857687742811, -123.67563863662963 48.83546073897462, -123.5849323070548 48.964009038712454))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000803
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.42202451500752 48.235066588398226, -122.00441890394498 48.45432968691909, -121.89148173055402 48.23923103318404, -122.30908734161655 48.01996793466318, -122.42202451500752 48.235066588398226))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711002101
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.67832246336704 48.67992063932252, -123.55080958194021 48.36866047921766, -123.77119252620938 48.278376954877054, -123.8987054076362 48.58963711498191, -123.67832246336704 48.67992063932252))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000205
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.31532005958023 49.39453634943894, -122.30162781126022 48.715992205598006, -122.54395269591919 48.35397764931083, -123.5576449442392 49.03252179315176, -123.31532005958023 49.39453634943894))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001802
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001802"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001802 ;
+      geo_huc10:name "Jefferson Creek-Hamma Hamma River"@en .
+
+geo_huc10:ps_wbd_huc10_1711001204
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001204"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001204 ;
+      geo_huc10:name "Lower Sammamish River"@en .
+
+geo_huc10:ps_wbd_huc10_1711001911
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001911"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001911 ;
+      geo_huc10:name "Skagit Bay-Whidbey Basin"@en .
+
+geo_huc10:ps_wbd_huc10_1711000101
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000101"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000101 ;
+      geo_huc10:name "Upper Chilliwack River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001404
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.28428717139715 47.30961595085965, -121.62415385371631 47.195670648194366, -121.65964209323232 46.99007227123304, -122.31977541091315 47.104017573898325, -122.28428717139715 47.30961595085965))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001501
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.38034535026738 46.81892669938289, -121.71348637963382 46.85656290506884, -121.69966734118537 46.611709589307495, -122.36652631181892 46.574073383621545, -122.38034535026738 46.81892669938289))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000701
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000701"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000701 ;
+      geo_huc10:name "Finney Creek-Skagit River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000507
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000507"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000507 ;
+      geo_huc10:name "Gorge Lake-Skagit River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001906
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.32747530642801 47.30011679132373, -122.70434748557861 47.51250960335953, -122.59259110161453 47.18463357338446, -123.21571892246395 46.97224076134866, -123.32747530642801 47.30011679132373))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000604
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000604"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000604 ;
+      geo_huc10:name "Lower Sauk River"@en .
+
+geo_huc10:ps_wbd_huc10_1711001202
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001202"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001202 ;
+      geo_huc10:name "Lake Sammamish"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711002102
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.90916561650532 48.19488547284389, -123.646874551961 48.0815678689535, -123.70353848183636 47.950410467296436, -123.96582954638066 48.06372807118683, -123.90916561650532 48.19488547284389))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000802
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.1014696127834 48.29913615819736, -121.41914319285007 48.115038516020526, -121.46500705345062 47.94505196194054, -122.14733347338394 48.12914960411737, -122.1014696127834 48.29913615819736))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711002005
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.57026569007944 48.2351780275851, -123.24527964956953 47.79365108351985, -123.49782892370594 47.607762114027835, -123.82281496421585 48.04928905809309, -123.57026569007944 48.2351780275851))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000301
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.7375129750924 48.65735846018224, -123.30483845047728 48.776510086356495, -123.23514897258248 48.52344713885871, -123.66782349719759 48.404295512684456, -123.7375129750924 48.65735846018224))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000204
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.68021750443229 48.76854163875173, -122.5423006789919 48.52202749832743, -122.67425485678584 48.4482033303766, -122.81217168222624 48.6947174708009, -122.68021750443229 48.76854163875173))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001910
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001910"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001910 ;
+      geo_huc10:name "Port Orchard Sound"@en .
+
+geo_huc10:ps_wbd_huc10_1711001801
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001801"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001801 ;
+      geo_huc10:name "Tahuya River-Frontal Hood Canal"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001405
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.4194153235769 47.25944195092326, -122.08982686841942 47.18409615285897, -122.11940511893899 47.05471070409532, -122.44899357409646 47.13005650215961, -122.4194153235769 47.25944195092326))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000102
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000102"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000102 ;
+      geo_huc10:name "Middle Chilliwack River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001502
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.52690003681361 47.00181911572607, -121.97148686807654 46.962042005842434, -121.98560788745506 46.76486830112211, -122.54102105619214 46.804645411005744, -122.52690003681361 47.00181911572607))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001001
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.78800697620248 47.67417749442711, -121.47052587968984 47.69781882737403, -121.45759670672636 47.52419206873633, -121.775077803239 47.50055073578942, -121.78800697620248 47.67417749442711))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000601
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000601"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000601 ;
+      geo_huc10:name "Upper Sauk River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711002006
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.65937709397927 48.48637392506406, -123.3094340305451 48.63080373641053, -123.22377409692689 48.42325586727973, -123.57371716036107 48.27882605593326, -123.65937709397927 48.48637392506406))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000407
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000407"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000407 ;
+      geo_huc10:name "Bellingham Bay"@en .
+
+geo_huc10:ps_wbd_huc10_1711000504
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000504"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000504 ;
+      geo_huc10:name "Three Fools Creek-Lightning Creek"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001907
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.8411045138023 47.174394704993496, -122.76269719041153 47.956460463840784, -122.4535602179622 47.925467414603325, -122.531967541353 47.14340165575604, -122.8411045138023 47.174394704993496))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001201
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001201"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001201 ;
+      geo_huc10:name "Cedar River"@en .
+
+geo_huc10:ps_wbd_huc10_1711002109
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002109"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002109 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000203
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.70564881798273 48.495442098179204, -122.43734239666875 48.708184430180566, -122.27923808398901 48.50878639815591, -122.547544505303 48.29604406615455, -122.70564881798273 48.495442098179204))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711002103
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.10478221708514 48.1750929558045, -123.56393669517404 48.17648315514418, -123.56369653022507 48.0830489738342, -124.1045420521362 48.08165877449452, -124.10478221708514 48.1750929558045))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000801
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.10804119441376 48.48457819995901, -121.57615653229188 48.433428837095896, -121.60312842997068 48.15295733401837, -122.13501309209256 48.20410669688149, -122.10804119441376 48.48457819995901))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001503
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.76883721284153 47.11522872181301, -122.21933506498377 47.063882874534244, -122.24261511035515 46.814740332113075, -122.79211725821293 46.866086179391836, -122.76883721284153 47.11522872181301))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001002
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.7873351779833 47.55034667708042, -121.25121537578514 47.657447777229734, -121.21399033329689 47.47110905253138, -121.75011013549505 47.36400795238207, -121.7873351779833 47.55034667708042))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001908
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.87323557726276 47.916526847050484, -122.81836351176786 48.15849560092101, -122.61748546930097 48.11294181380422, -122.67235753479588 47.8709730599337, -122.87323557726276 47.916526847050484))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000602
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000602"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000602 ;
+      geo_huc10:name "Upper Suiattle River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711002007
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.5315257909835 48.55920070405089, -122.70311786529952 48.37145638521889, -122.7946902727272 47.96739990798967, -123.62309819841117 48.15514422682166, -123.5315257909835 48.55920070405089))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000505
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000505"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000505 ;
+      geo_huc10:name "Ruby Creek"@en .
+
+geo_huc10:ps_wbd_huc10_1711002108
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002108"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002108 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000202
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.45418609843095 48.71589223238001, -122.15067171465641 48.689788282443814, -122.16841370633436 48.48349959110688, -122.47192809010889 48.50960354104307, -122.45418609843095 48.71589223238001))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711002104
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.58819840442487 48.668361780643416, -124.37101226795257 48.90368002809072, -124.221614173553 48.76579359016698, -124.43880031002531 48.53047534271967, -124.58819840442487 48.668361780643416))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000509
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.48287179265905 48.81149901316637, -121.22341934115566 48.64827867311614, -121.34412926521996 48.45640010142811, -121.60358171672335 48.61962044147833, -121.48287179265905 48.81149901316637))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001702
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001702"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001702 ;
+      geo_huc10:name "Skokomish River-Frontal Hood Canal"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001003
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.8233051251414 47.531084442381456, -121.377394955323 47.45918700452778, -121.39788483898691 47.33210810190085, -121.84379500880532 47.40400553975453, -121.8233051251414 47.531084442381456))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001601
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.70250135816562 46.899455146773924, -122.31110791899707 46.79796350312291, -122.34855805348077 46.65354041166816, -122.73995149264933 46.75503205531918, -122.70250135816562 46.899455146773924))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000405
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000405"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000405 ;
+      geo_huc10:name "Nooksack River-Frontal Bellingham Bay"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001909
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.14466398837918 47.17834057641813, -122.68341677896362 47.50965198765295, -122.48298827893967 47.23061817478537, -122.94423548835523 46.899306763550555, -123.14466398837918 47.17834057641813))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000502
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000502"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000502 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711002105
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.39564584834353 48.783198917965166, -123.89747756193474 48.7393526908365, -123.91837731022405 48.50189573105949, -124.41654559663286 48.54574195818816, -124.39564584834353 48.783198917965166))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000201
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.01889287012261 49.3487469578776, -122.48150583980394 49.083645180599746, -122.6440039461887 48.754245748731755, -123.18139097650737 49.01934752600961, -123.01889287012261 49.3487469578776))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001005
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001005"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001005 ;
+      geo_huc10:name "Tolt River"@en .
+
+geo_huc10:ps_wbd_huc10_1711002107
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002107"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002107 ;
+      geo_huc10:name "Pysht River-Frontal Strait of Juan De Fuca"@en .
+
+geo_huc10:ps_wbd_huc10_1711000906
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000906"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000906 ;
+      geo_huc10:name "Wallace River-Skykomish River"@en .
+
+geo_huc10:ps_wbd_huc10_1711001102
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001102"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001102 ;
+      geo_huc10:name "Quilceda Creek-Frontal Possession Sound"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000104
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.4055338903749 48.97856378717057, -122.09777035638578 49.218191844460556, -121.98219422674808 49.06975297421993, -122.2899577607372 48.83012491692995, -122.4055338903749 48.97856378717057))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000702
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.55239464514709 48.39886562397626, -122.1427673535802 48.554917007348664, -122.06601209563354 48.35343818834211, -122.47563938720043 48.19738680496971, -122.55239464514709 48.39886562397626))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001101
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.14358460606888 48.13151908475176, -121.71219041276667 48.21739735999266, -121.6656879487203 47.98380052880831, -122.0970821420225 47.897922253567415, -122.14358460606888 48.13151908475176))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000508
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.43521387598658 48.58711833238856, -121.03125997846288 48.57000137306434, -121.04082403920366 48.34429308345436, -121.44477793672736 48.36141004277857, -121.43521387598658 48.58711833238856))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001701
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001701"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001701 ;
+      geo_huc10:name "South Fork Skokomish River"@en .
+
+geo_huc10:ps_wbd_huc10_1711001006
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001006"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001006 ;
+      geo_huc10:name "Lower Snoqualmie River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001602
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.92800230075702 47.10414889174681, -122.6441008842653 46.90595223687804, -122.7175815214612 46.80069689339891, -123.00148293795291 46.99889354826767, -122.92800230075702 47.10414889174681))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001004
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.01983015642462 47.6777128215001, -121.7178084988842 47.70080190101907, -121.69748561986401 47.434964122487166, -121.99950727740443 47.411875042968205, -122.01983015642462 47.6777128215001))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711002106
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.40306126275978 48.74226577325857, -123.51805967222025 48.492871924599676, -123.57807591223035 48.279897674622156, -124.46307750276986 48.52929152328105, -124.40306126275978 48.74226577325857))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000503
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000503"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000503 ;
+      geo_huc10:name "Nepopekum Creek-Skagit River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000406
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000406"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000406 ;
+      geo_huc10:name "Whatcom Creek-Frontal Bellingham Bay"@en .
+
+geo_huc10:ps_wbd_huc10_1711001004
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001004"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001004 ;
+      geo_huc10:name "Upper Snoqualmie River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000907
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000907"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000907 ;
+      geo_huc10:name "Woods Creek-Skykomish River"@en .
+
+geo_huc10:ps_wbd_huc10_1711002106
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002106"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002106 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:ps_wbd_huc10_1711001101
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001101"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001101 ;
+      geo_huc10:name "Pilchuck River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000103
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.0959325935253 49.16562054934898, -121.6210046711213 49.082423852948786, -121.65110658502027 48.910587229056226, -122.12603450742428 48.99378392545642, -122.0959325935253 49.16562054934898))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000604
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.68902963984713 48.109811979131415, -121.6606207413094 48.4855666593921, -121.39753360660637 48.46567598042258, -121.4259425051441 48.0899213001619, -121.68902963984713 48.109811979131415))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000701
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.23187457335756 48.63348534784412, -121.65759809434003 48.612966742360506, -121.66618207036677 48.37271768973626, -122.2404585493843 48.39323629521988, -122.23187457335756 48.63348534784412))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001005
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.9484016171061 47.74781344890591, -121.54498254502329 47.82842775608381, -121.51746994849518 47.69074616393836, -121.920889020578 47.610131856760454, -121.9484016171061 47.74781344890591))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001102
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.14376321033662 48.214901958293936, -121.90022312721614 47.85165386581749, -122.09405123841393 47.72170159548243, -122.3375913215344 48.08494968795888, -122.14376321033662 48.214901958293936))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000507
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.34570309662563 48.86798345312762, -120.79347175532288 48.61030293452088, -120.89232635784448 48.398449085267465, -121.44455769914723 48.656129603874206, -121.34570309662563 48.86798345312762))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711002105
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002105"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002105 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:ps_wbd_huc10_1711000306
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000306"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000306 ;
+      geo_huc10:name "Lopez Island"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000102
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.47903496851994 49.21348269375479, -121.43629351844709 48.900295324275746, -121.73401304769887 48.85966480837597, -121.77675449777172 49.17285217785501, -121.47903496851994 49.21348269375479))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711002107
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.71341107001321 48.42380828925659, -124.02104877142557 48.190035433925324, -124.08870792344563 47.98965012423351, -124.78107022203326 48.22342297956478, -124.71341107001321 48.42380828925659))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001003
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001003"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001003 ;
+      geo_huc10:name "South Fork Snoqualmie River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000403
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000403"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000403 ;
+      geo_huc10:name "Middle Fork Nooksack River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000904
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000904"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000904 ;
+      geo_huc10:name "North Fork Skykomish River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000506
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.3379113878247 49.069007768928294, -120.79607077974666 48.971397256717815, -120.84660323730219 48.69088917506243, -121.38844384538022 48.78849968727291, -121.3379113878247 49.069007768928294))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000603
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.53543590952376 48.431335600556366, -121.15269915671861 48.37777123845128, -121.18255495828694 48.1644407310845, -121.56529171109209 48.21800509318958, -121.53543590952376 48.431335600556366))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001006
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.09616767943999 47.74966797320926, -121.94135299101731 47.92061258849611, -121.77595083303889 47.770817384307335, -121.93076552146157 47.599872769020486, -122.09616767943999 47.74966797320926))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001602
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001602"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001602 ;
+      geo_huc10:name "Lower Deschutes River"@en .
+
+geo_huc10:ps_wbd_huc10_1711002104
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002104"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002104 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:ps_wbd_huc10_1711001909
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001909"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001909 ;
+      geo_huc10:name "South Puget Sound"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001701
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.51940807329586 47.54263208274625, -123.19906606521397 47.44597668175123, -123.25037240219724 47.27593367486955, -123.57071441027914 47.37258907586457, -123.51940807329586 47.54263208274625))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000307
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000307"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000307 ;
+      geo_huc10:name "Haro Strait-Strait of Georgia"@en .
+
+geo_huc10:ps_wbd_huc10_1711000501
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000501"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000501 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711002108
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.8208007055041 48.81674201167446, -124.38462851127692 48.724748331320356, -124.42639522588364 48.526718646177265, -124.86256742011082 48.61871232653137, -124.8208007055041 48.81674201167446))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711000101
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.54149013842634 48.86487354250004, -121.48479238556523 49.16291505103827, -121.21363203362645 49.11133101935302, -121.27032978648757 48.81328951081479, -121.54149013842634 48.86487354250004))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001002
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001002"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001002 ;
+      geo_huc10:name "Middle Fork Snoqualmie River"@en .
+
+geo_huc10:ps_wbd_huc10_1711000404
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000404"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000404 ;
+      geo_huc10:name "South Fork Nooksack River"@en .
+
+geo_huc10:ps_wbd_huc10_1711002007
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002007"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002007 ;
+      geo_huc10:name "Discovery Bay-Strait of Juan De Fuca"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000505
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.0695975656164 48.726805646550226, -120.73249915849455 48.88762801107607, -120.586692432423 48.582003757563285, -120.92379083954486 48.42118139303744, -121.0695975656164 48.726805646550226))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711000905
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711000905"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711000905 ;
+      geo_huc10:name "Sultan River"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711000602
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.11022702925564 48.42881239428298, -120.88923771440264 48.16051129737319, -121.06360018250372 48.01689562525876, -121.28458949735672 48.28519672216854, -121.11022702925564 48.42881239428298))"^^geo:wktLiteral .
+
+geo_huc10:geom_ps_wbd_huc10_1711001201
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.23897490359698 47.51430704819215, -121.42242661386057 47.38259621982593, -121.44725803630278 47.22865249493691, -122.2638063260392 47.36036332330313, -122.23897490359698 47.51430704819215))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001601
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001601"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001601 ;
+      geo_huc10:name "Upper Deschutes River"@en .
+
+geo_huc10:ps_wbd_huc10_1711002103
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002103"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002103 ;
+      geo_huc10:name "Salt Creek-Frontal Strait of Juan De Fuca"@en .
+
+geo_huc10:ps_wbd_huc10_1711002006
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711002006"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711002006 ;
+      geo_huc10:name "Canada"@en .
+
+geo_huc10:geom_ps_wbd_huc10_1711001702
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.36052251519494 47.69331476616194, -123.03379179591035 47.381655847997386, -123.1802127107061 47.228154029113874, -123.5069434299907 47.53981294727842, -123.36052251519494 47.69331476616194))"^^geo:wktLiteral .
+
+geo_huc10:ps_wbd_huc10_1711001908
+      a       geo_huc10:ps_wbd_huc10 ;
+      rdfs:label              "1711001908"@en ;
+      geo:hasGeometry geo_huc10:geom_ps_wbd_huc10_1711001908 ;
+      geo_huc10:name "Chimacum Creek-Frontal Port Ludlow"@en .

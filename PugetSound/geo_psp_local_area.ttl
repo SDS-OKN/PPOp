@@ -1,0 +1,123 @@
+@prefix geo:     <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:      <http://www.opengis.net/ont/sf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo_psp_local_area:  <https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_psp_local_area.ttl#> .
+
+<https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_psp_local_area.ttl#> 
+	rdf:type owl:Ontology ;
+	rdfs:label "Puget Sound Partnership Local Areas" .
+
+geo_psp_local_area:psp_local_area rdf:type owl:Class ;
+                rdfs:subClassOf <http://purl.obolibrary.org/obo/GEO_000000372>, geo:Feature  .
+				
+geo_psp_local_area:psp_local_area_Whatcom
+      a       geo_psp_local_area:psp_local_area ;
+      rdfs:label "Whatcom"@en ;
+      geo:hasGeometry geo_psp_local_area:geom_psp_local_area_Whatcom ;
+      geo_psp_local_area:name "Whatcom"@en .
+
+geo_psp_local_area:psp_local_area_SouthSound
+      a       geo_psp_local_area:psp_local_area ;
+      rdfs:label              "SouthSound"@en ;
+      geo:hasGeometry geo_psp_local_area:geom_psp_local_area_SouthSound ;
+      geo_psp_local_area:name "South Sound"@en .
+
+geo_psp_local_area:geom_psp_local_area_SkagitSamish
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.7916762071777 48.62632126739164, -120.74955912142653 49.11830995314991, -120.51225290572673 48.133313566721576, -122.5543699914779 47.6413248809633, -122.7916762071777 48.62632126739164))"^^geo:wktLiteral .
+
+geo_psp_local_area:psp_local_area_SouthCentral
+      a       geo_psp_local_area:psp_local_area ;
+      rdfs:label              "SouthCentral"@en ;
+      geo:hasGeometry geo_psp_local_area:geom_psp_local_area_SouthCentral ;
+      geo_psp_local_area:name "South Central"@en .
+
+geo_psp_local_area:geom_psp_local_area_SnohomishStillaguamish
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-121.88545367111955 48.752487871788915, -120.93992930530433 47.76300471916464, -121.60902883452901 47.12363061121794, -122.55455320034423 48.113113763842215, -121.88545367111955 48.752487871788915))"^^geo:wktLiteral .
+
+geo_psp_local_area:geom_psp_local_area_PuyallupWhite
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.54534196851161 47.39569389934121, -121.35724697873667 47.135725538802696, -121.45749761071225 46.6775648867709, -122.64559260048719 46.937533247309425, -122.54534196851161 47.39569389934121))"^^geo:wktLiteral .
+
+geo_psp_local_area:psp_local_area_HoodCanal
+      a       geo_psp_local_area:psp_local_area ;
+      rdfs:label              "HoodCanal"@en ;
+      geo:hasGeometry geo_psp_local_area:geom_psp_local_area_HoodCanal ;
+      geo_psp_local_area:name "Hood Canal"@en .
+
+geo_psp_local_area:geom_psp_local_area_HoodCanal
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.63308048647103 47.633012138073674, -122.71602220305398 48.21962141493173, -122.3782421962735 47.69156301999834, -123.29530047969055 47.10495374314028, -123.63308048647103 47.633012138073674))"^^geo:wktLiteral .
+
+geo_psp_local_area:psp_local_area_Island
+      a       geo_psp_local_area:psp_local_area ;
+      rdfs:label              "Island"@en ;
+      geo:hasGeometry geo_psp_local_area:geom_psp_local_area_Island ;
+      geo_psp_local_area:name "Island"@en .
+
+geo_psp_local_area:psp_local_area_StraitofJuandeFuca
+      a       geo_psp_local_area:psp_local_area ;
+      rdfs:label              "StraitofJuandeFuca"@en ;
+      geo:hasGeometry geo_psp_local_area:geom_psp_local_area_StraitofJuandeFuca ;
+      geo_psp_local_area:name "Strait of Juan de Fuca"@en .
+
+geo_psp_local_area:psp_local_area_SnohomishStillaguamish
+      a       geo_psp_local_area:psp_local_area ;
+      rdfs:label              "SnohomishStillaguamish"@en ;
+      geo:hasGeometry geo_psp_local_area:geom_psp_local_area_SnohomishStillaguamish ;
+      geo_psp_local_area:name "Snohomish-Stillaguamish"@en .
+
+geo_psp_local_area:psp_local_area_SanJuan
+      a       geo_psp_local_area:psp_local_area ;
+      rdfs:label              "SanJuan"@en ;
+      geo:hasGeometry geo_psp_local_area:geom_psp_local_area_SanJuan ;
+      geo_psp_local_area:name "San Juan"@en .
+
+geo_psp_local_area:psp_local_area_PuyallupWhite
+      a       geo_psp_local_area:psp_local_area ;
+      rdfs:label              "PuyallupWhite"@en ;
+      geo:hasGeometry geo_psp_local_area:geom_psp_local_area_PuyallupWhite ;
+      geo_psp_local_area:name "Puyallup-White"@en .
+
+geo_psp_local_area:geom_psp_local_area_WestCentral
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.88469255493345 47.42214868605443, -122.6183196710691 47.98469335688999, -122.28210650405924 47.825491651616424, -122.54847938792359 47.26294698078086, -122.88469255493345 47.42214868605443))"^^geo:wktLiteral .
+
+geo_psp_local_area:geom_psp_local_area_SouthSound
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.09728640505371 47.7288911773083, -121.60763741351143 46.99988481758609, -121.89591644085245 46.41081648281191, -123.38556543239473 47.139822842534116, -123.09728640505371 47.7288911773083))"^^geo:wktLiteral .
+
+geo_psp_local_area:geom_psp_local_area_SouthCentral
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.39479444141236 47.96239264739639, -121.16506280421729 47.60644109767441, -121.34569415381267 46.98240087242417, -122.57542579100773 47.33835242214615, -122.39479444141236 47.96239264739639))"^^geo:wktLiteral .
+
+geo_psp_local_area:psp_local_area_WestCentral
+      a       geo_psp_local_area:psp_local_area ;
+      rdfs:label              "WestCentral"@en ;
+      geo:hasGeometry geo_psp_local_area:geom_psp_local_area_WestCentral ;
+      geo_psp_local_area:name "West Central"@en .
+
+geo_psp_local_area:geom_psp_local_area_SanJuan
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.33620727894439 48.77233161250304, -122.74200777720141 48.8791156592856, -122.65425325284885 48.39080587690623, -123.24845275459184 48.28402183012367, -123.33620727894439 48.77233161250304))"^^geo:wktLiteral .
+
+geo_psp_local_area:geom_psp_local_area_StraitofJuandeFuca
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-124.81459331115018 48.49922636990704, -122.7365398537765 48.36176119893945, -122.78547019996017 47.622083836726524, -124.86352365733384 47.75954900769412, -124.81459331115018 48.49922636990704))"^^geo:wktLiteral .
+
+geo_psp_local_area:geom_psp_local_area_Island
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-122.6829188742552 48.54328179594953, -122.20170566027164 48.04304131150713, -122.44808512961552 47.806033192432785, -122.92929834359907 48.30627367687518, -122.6829188742552 48.54328179594953))"^^geo:wktLiteral .
+
+geo_psp_local_area:psp_local_area_SkagitSamish
+      a       geo_psp_local_area:psp_local_area ;
+      rdfs:label              "SkagitSamish"@en ;
+      geo:hasGeometry geo_psp_local_area:geom_psp_local_area_SkagitSamish ;
+      geo_psp_local_area:name "Skagit-Samish"@en .
+
+geo_psp_local_area:geom_psp_local_area_Whatcom
+      a       sf:Polygon, geo:Geometry ;
+      geo:asWKT "POLYGON ((-123.32225328710825 49.00207535638324, -121.23760374679541 49.00275911939657, -121.2374594470796 48.56281965151537, -123.32210898739244 48.56213588850204, -123.32225328710825 49.00207535638324))"^^geo:wktLiteral .
