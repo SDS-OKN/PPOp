@@ -12,26 +12,28 @@
 @base <https://github.com/SDS-OKN/PPOp/raw/main/ppop.ttl#> .
 
 <https://github.com/SDS-OKN/PPOp/raw/main/ppop.ttl#> rdf:type owl:Ontology ;
-                                                      owl:imports <https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_psp_local_area.ttl#> ,
-                                                                  <https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_wa_wria.ttl#> ,
-                                                                  <https://github.com/SDS-OKN/PPOp/raw/main/main/PugetSound/geo_ps_wbd_huc04.ttl#> ,
-                                                                  <https://github.com/SDS-OKN/PPOp/raw/main/main/PugetSound/geo_ps_wbd_huc10.ttl#> ,
-                                                                  <https://github.com/SDS-OKN/PPOp/raw/main/main/PugetSound/geo_usa.ttl#> ;
-                                                      obo:IAO_0000116 """Contributors to this schema:
+	owl:imports 
+	<https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_psp_local_area.ttl#> ,
+    <https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_wa_wria.ttl#> ,
+    <https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_ps_wbd_huc04.ttl#> ,
+    <https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_ps_wbd_huc10.ttl#> ,
+    <https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_usa.ttl#> ;
+	 
+	obo:IAO_0000116 """Contributors to this schema:
+	Naicong Li
+	Yunyuan Tian
+	Patrick Huber
+	Allan Hollander
+	Sean Gordon
+	Philip Murphy""" ,
+	"""This is a snapshot of an evolving schema.  Instances are unevenly distributed across classes.  
 
-Naicong Li
-Yunyuan Tian
-Patrick Huber
-Allan Hollander
-Sean Gordon
-Philip Murphy""" ,
-                                                                      """This is a snapshot of an  evolving schema.  Instances are very unevenly distributed across classes.  
+	This work was partially funded by NSF Award 1937908.""" ;
 
-This work was partially funded by NSF Award 1937908.""" ;
-                                                      <http://purl.org/dc/terms/title> "PPOp" ;
-                                                      rdfs:comment "This ontology is designed to support collaboration across organizational boundaries.  It is based on the PPOD ontology (https://github.com/adhollander/ppod)." ;
-                                                      rdfs:label "PPOp" ;
-                                                      owl:versionInfo "Version 3.0 Oct 11 2021" .
+	<http://purl.org/dc/terms/title> "PPOp Ontology" ;
+	rdfs:comment "This ontology is designed to support collaboration across organizational boundaries.  It is based on the PPOD ontology (https://github.com/adhollander/ppod)." ;
+	rdfs:label "PPOp" ;
+	owl:versionInfo "Version 3.1 Nov 22 2021" .
 
 #################################################################
 #    Annotation properties
