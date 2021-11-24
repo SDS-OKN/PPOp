@@ -6,14 +6,7 @@ This PPOp ontology is designed to help multi-organizional collaborations share i
 The ontology includes some example data (instances) relevant to managing water quality issues in the Puget Sound region of the state of Washington, USA. 
 Geosparql (spatial) entities for the Puget Sound region are stored as separate files in the PugetSound folder. The main ppop.ttl file calls for their import, but this may have to be done manually depending on the software you use to read the files (and note that not all programs are capable of executing geosparql queries).
 
-Contributors to this schema:
-  Naicong Li
-  Yunyuan Tian
-  Patrick Huber
-  Allan Hollander
-  Sean Gordon
-  Philip Murphy
-  
-  It is based on the PPOD ontology developed by Patrick Huber and Allan Hollander. 
+Contributors to this schema include: Philip Murphy, Naicong Li, Yunyuan Tian, Allan Hollander, Sean Gordon  
+It is based on the PPOD ontology developed by Patrick Huber and Allan Hollander. 
   
   
