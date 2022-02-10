@@ -5,7 +5,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix geo_wbd:  <https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_ps_wbd_huc04.ttl#> .
 
-<https://github.com/SDS-OKN/PPOp/raw/main/main/PugetSound/geo_ps_wbd_huc04.ttl#> 
+<https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_ps_wbd_huc04.ttl#> 
 	rdf:type owl:Ontology ; 
 	rdfs:label "Watershed Boundaries HUC04" .
 
