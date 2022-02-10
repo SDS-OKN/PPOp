@@ -5,7 +5,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix geo_usa:  <https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_usa.ttl#> .
 
-<https://github.com/SDS-OKN/PPOp/raw/main/main/PugetSound/geo_usa.ttl#> 
+<https://github.com/SDS-OKN/PPOp/raw/main/PugetSound/geo_usa.ttl#> 
 	rdf:type owl:Ontology ; 
 	rdfs:label "USA Administrative Boundaries" .
 
